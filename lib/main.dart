@@ -1,3 +1,4 @@
+import 'package:crypt_app/features/Auth/LogIn/View/LoginView.dart';
 import 'package:crypt_app/features/Tabs/View/tabsView.dart';
 import 'package:flutter/material.dart';
 
@@ -45,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: TabsView(),
+      body: LoginView(),
     );
   }
 }
